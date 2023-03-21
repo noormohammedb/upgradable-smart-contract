@@ -10,7 +10,7 @@ envConfig();
 const config: HardhatUserConfig = {
   solidity: "0.8.10",
   networks: {
-    goerli: {
+    sepolia: {
       url: process.env.NODE_API,
       accounts: [process.env.PRI_KEY!],
     },
